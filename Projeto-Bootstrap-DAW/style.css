@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.alinhar {
+    text-align: center;
+}
+
+#container1 {
+    background-color: #ebbe7b;
+}
+
+#titulo {
+    color: white;
+}
