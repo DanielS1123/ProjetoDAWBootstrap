@@ -1,0 +1,18 @@
+Gabriel Henrique dos Santos Silva - 200252 - 1ºCTDS
+Daniel Santos - 203116 - 1ºCTDS
+
+Requisitos:
+- Pelo menos 3 páginas ✔️
+
+- Uso dos componentes trabalhados em aula:
+  * Navbar (Todas as páginas) ✔️
+  * Grid System (Todas as páginas) ✔️
+  * Cards (Página contato.html) ✔️
+  * Ícones - (Estrelas de avaliação na página index.html) ✔️
+  * Accordion (Página comunidade.html) ✔️
+  * Carrossel (Página index.html) ✔️
+  * Formatação e tratamento de forms (Página contato.html) ✔️
+
+- Uso de pelo menos 2 componentes não trabalhados em aula, demonstrando conhecimento em utilizar a documentação do framework. ✔️
+  * List Group (Página index.html)
+  * Progress (Segundo tópico da página comunidade.html)
