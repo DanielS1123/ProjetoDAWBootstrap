@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Clube do Livro - Contato</title>
+</head>
+
+<body id="contato">
+    <header class="p-3"> <!-- INÍCIO DA NAVBAR -->
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+                </a>
+            
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-2 link-body-emphasis">Home</a></li>
+                    <li><a href="index.html#sobrenos" class="nav-link px-2 link-body-emphasis">Sobre nós</a></li>
+                    <li><a href="comunidade.html" class="nav-link px-2 link-body-emphasis">Comunidade</a></li>
+                    <li><a href="contato.html" class="nav-link px-2 link-secondary">Contato</a></li>
+                </ul>
+            
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control" placeholder="Pesquisar..." aria-label="Search">
+                </form>
+            
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="" onclick="alerta()">Ajuda e suporte</a></li>
+                        <li><a class="dropdown-item" href="" onclick="alerta()">Configurações</a></li>
+                        <li><a class="dropdown-item" href="" onclick="alerta()">Perfil</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="" onclick="alerta()">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header> <!--FIM DA NAVBAR-->
+    
+    
+
+    <div id="conteudo" class="mb-5"> <!-- INÍCIO DO CONTEÚDO -->
+        <div class="col-8 mt-5 d-flex justify-content-between flex-wrap centralizar">
+            <div class="card col-3">
+                <div class="card-body">
+                    <h5 class="card-title">SAC</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">(19) 99999-9999</h6>
+                    <p class="card-text">
+                        Segunda à sábado das 8:00 às 20:00. Horário de Brasília (UTC -3).
+                        Exceto domingo e feriados
+                    </p>
+                </div>
+            </div>
+            <div class="card col-3">
+                <div class="card-body">
+                    <h5 class="card-title">Quando responderemos?</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Atendimento ao Cliente</h6>
+                    <p class="card-text">Responderemos as dúvidas por assim que algum administrador estiver disponível!</p>
+                </div>
+            </div>
+            <div class="card col-3">
+                <div class="card-body">
+                    <h5 class="card-title">Fale Conosco</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">clubedolivro@gmail.com</h6>
+                    <p class="card-text">
+                        Envie um e-mail para nossos representantes, responderemos o seu contato em até 2 dias úteis.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-8 centralizar mt-5 border-bottom">
+            <h2>Entre em contato conosco!</h2>
+        </div>
+        <div class="col-8 centralizar mt-5 mb-5">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="first-name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="first-name">
+                </div>
+                <div class="col-md-6">
+                    <label for="last-name" class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" id="last-name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="input-telefone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="input-telefone">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Assunto</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Clique se deseja receber avisos e promoções por email!
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div> <!-- FIM DO CONTEÚDO -->
+
+    <div class="">
+        <div id="rodape" class="container"> <!-- INÍCIO DO RODAPÉ -->
+            <footer class="py-3">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="index.html#sobrenos" class="nav-link px-2 text-body-secondary">Sobre nós</a></li>
+                <li class="nav-item"><a href="comunidade.html" class="nav-link px-2 text-body-secondary">Comunidade</a></li>
+                <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary" onclick="alerta()">Ajuda e suporte</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-body-secondary">Contato</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">&copy; 2023 - Todos os direitos reservados</p>
+            </footer>
+        </div> <!-- FIM DO RODAPÉ -->
+    </div>
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <!-- Isotope JS -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

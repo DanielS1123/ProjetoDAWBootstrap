@@ -1,0 +1,82 @@
+header {
+    box-shadow: 0px 3px 9px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: relative;
+    background: white;
+}
+
+.centralizar {
+    margin: 0 auto;
+}
+
+/* .row {
+    width: 100%;
+} */
+
+#carouselExampleIndicators {
+    position: absolute;
+    height: 100vh;
+    top: 0px;
+    z-index: 0;
+}
+
+#carouselExampleIndicators img {
+    height: 100vh;
+}
+
+#home #conteudo {
+    margin-top: 100vh;
+}
+
+/*
+.titulo h2::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: red;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+} 23 minutos do vídeo */ 
+
+
+/* BOTÕES */
+button.btn {
+    background: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+button.btn:hover {
+    background: black;
+    color: #fff!important;
+    border-color: black;
+}
+
+button.btn:active {
+    color: white;
+    background: black!important;
+    border-color: black!important;
+}
+
+button.ativar-filtro-btn {
+    background: black;
+    color: #fff!important;
+    border-color: black;
+}
+
+.filtrar-grupo-botoes .btn:hover {
+    color: #fff!important;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+#comunidade #rodape {
+    position: absolute;
+    bottom: 0;
+}
